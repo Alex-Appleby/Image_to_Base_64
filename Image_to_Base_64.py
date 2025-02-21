@@ -14,6 +14,20 @@ class ImageConverterApp:
         self.root.title("Convertidor de Imágenes para WML")
         self.root.geometry("800x600")
         
+        # Centrar la ventana en la pantalla
+        screen_width = self.root.winfo_screenwidth()
+        screen_height = self.root.winfo_screenheight()
+        x = (screen_width - 800) // 2
+        y = (screen_height - 600) // 2
+        self.root.geometry(f"800x600+{x}+{y -33}")
+        
+        # Cambiar los íconos de la aplicación
+        icon_path = "icon.ico"
+        if os.path.exists(icon_path):
+            # Cambiar el ícono tanto de la ventana como de la barra de tareas
+            self.root.iconbitmap(default=icon_path)
+            self.root.iconbitmap(icon_path)
+        
         # Variables
         self.folder_path = tk.StringVar()
         self.output_path = tk.StringVar()
