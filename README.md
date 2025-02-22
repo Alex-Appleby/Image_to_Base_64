@@ -1,9 +1,9 @@
-# WML Image Converter 🖼️
+# WLM Image Converter 🖼️
 
 ![Python Version](https://img.shields.io/badge/python-3.6+-blue.svg)
 ![Tkinter](https://img.shields.io/badge/GUI-Tkinter-orange.svg)
 
-Una aplicación de escritorio desarrollada en Python que convierte imágenes a formato base64 y genera un archivo CSV compatible con WML (Warehouse Media Library).
+Una aplicación de escritorio desarrollada en Python que convierte imágenes a formato base64 y genera un archivo CSV compatible con WLM (Warehouse Labor Managment).
 
 ## 🚀 Características
 
