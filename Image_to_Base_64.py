@@ -1,3 +1,6 @@
+'''Created by: Alejandro Enriquez Rivera
+at 2025-02-21'''
+
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
 from PIL import Image
